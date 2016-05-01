@@ -97,9 +97,9 @@ summaryData <- finalDataSet %>%
 
 # save clean data set
 
-write.csv(finalDataSet, file = "./data/activity_data.csv")
+write.table(finalDataSet, file = "./data/activity_data.txt", row.name = FALSE)
 
 
 # save summary data set
 
-write.csv(summaryData, file = "./data/activity_summary.csv")
+write.table(summaryData, file = "./data/activity_summary.txt", row.name = FALSE)

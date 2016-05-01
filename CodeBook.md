@@ -1,4 +1,4 @@
-# Codebook for activity_data.csv
+# Codebook for activity_data.txt
 
 The file has been generated from raw data available here:
 
@@ -41,16 +41,15 @@ from Getting and Cleaning Data Course:
   * "Mag" replaced with "magnitude"
 * all names have been converted to lowercase
 
-The data set has been ordered by ativity and then by subjectid.
+The data set is ordered by activity and then by subjectid.
 
-The data set has then been saved as a csv file with the name "activity_data.csv"
 
-# Codebook for activity_summary.csv
+# Codebook for activity_summary.txt
 
-The dataset has been created from activity_data.csv which was grouped by activity and subjectid and the mean value was calculated
+The dataset is a summary of activity_data.txt which was grouped by activity and subjectid and the mean value was calculated
 for each variable.
 
-The data set has been saved as a csv file with the name "activity_summary.csv"
+It is ordered by activity and then by subjectid.
 
 
 Please refer to features_info.txt in the original data set for any additional information not covered in this Code Book regarding the data.
