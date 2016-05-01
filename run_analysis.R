@@ -81,6 +81,7 @@ finalDataSet <- allDataActivityDT[, meansAndSd, with = FALSE]
 names(finalDataSet) <- gsub("\\(|\\)|,|-", "", names(finalDataSet))
 names(finalDataSet) <- gsub("^t", "time", names(finalDataSet))
 names(finalDataSet) <- gsub("^f", "freq", names(finalDataSet))
+names(finalDataSet) <- gsub("tBody", "timeBody", names(finalDataSet))
 names(finalDataSet) <- gsub("Acc", "acceleration", names(finalDataSet))
 names(finalDataSet) <- gsub("Mag", "magnitude", names(finalDataSet))
 names(finalDataSet) <- tolower(names(finalDataSet)) 

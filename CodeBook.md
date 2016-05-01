@@ -37,6 +37,7 @@ from Getting and Cleaning Data Course:
 * to give the column names meaningful names the following additional operations have been perfomed:
   * leading t replaced with time
   * leading f replaced with freq
+  * tBody inside of string replaced by timeBody
   * "Acc" replaced with "acceleration"
   * "Mag" replaced with "magnitude"
 * all names have been converted to lowercase
