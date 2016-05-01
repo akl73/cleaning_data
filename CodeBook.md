@@ -1,6 +1,7 @@
 # Codebook for activity_data.csv
 
 The file has been generated from raw data available here:
+
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 
