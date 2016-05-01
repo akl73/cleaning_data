@@ -28,9 +28,7 @@ Also column names as tidied following Getting and Cleaning Data Course guideline
 In the next step the summary data set is produced from the tidy data set - means of all variables
 grouped by activity and subjectid.
 
-In the last step both data sets are saved to the txt files:
-* the tidy data set to activity_data.txt
-* the summary data set to activity_summary.txt
+In the last step the summary data set is saved to the txt file: activity_summary.txt
 
 More information on transforms performed can be found in CodeBook.md and also there are comments in run_analysis.R.
 

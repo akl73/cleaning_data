@@ -95,11 +95,6 @@ summaryData <- finalDataSet %>%
                summarise_each(funs(mean)) %>%
                arrange(activity, subjectid)
 
-# save clean data set
-
-write.table(finalDataSet, file = "./data/activity_data.txt", row.name = FALSE)
-
-
 # save summary data set
 
 write.table(summaryData, file = "./data/activity_summary.txt", row.name = FALSE)

@@ -1,4 +1,4 @@
-# Codebook for activity_data.txt
+# Codebook for activity_summary.txt
 
 The file has been generated from raw data available here:
 
@@ -28,7 +28,7 @@ The above datasets were then consolidated into one which was then joined with ac
 
 The column activity was added and automatically converted into factor.
 
-The final data set was created selecting only columns with [Mm]ean or [Ss]td in the name plus activity and subjectid.
+Then final detail data set was created selecting only columns with [Mm]ean or [Ss]td in the name plus activity and subjectid.
 subjectid was converted into factor.
 
 The measurement values have not been changed however the column names have been tidied following the guidelines 
@@ -41,15 +41,11 @@ from Getting and Cleaning Data Course:
   * "Mag" replaced with "magnitude"
 * all names have been converted to lowercase
 
-The data set is ordered by activity and then by subjectid.
 
-
-# Codebook for activity_summary.txt
-
-The dataset is a summary of activity_data.txt which was grouped by activity and subjectid and the mean value was calculated
+The summary data set was created from the final detail data set by grouping by activity and subjectid. The mean value was calculated
 for each variable.
 
-It is ordered by activity and then by subjectid.
+The data set is ordered by activity and then by subjectid.
 
 
 Please refer to features_info.txt in the original data set for any additional information not covered in this Code Book regarding the data.
