@@ -2,17 +2,17 @@
 ## Getting and Cleaning Data Course Project
 
 The repo contains the following files:
-run_analysis.R - script which creates tidy data set
-activity_data.csv - clean data set
-activity_summary.csv - summary data set of activity_data.csv
-CodeBook.md - a code book describing the operations performed on the raw data to generate activity_data.csv and activity_summary.csv
+* run_analysis.R - script which creates tidy data set
+* activity_data.csv - clean data set
+* activity_summary.csv - summary data set of activity_data.csv
+* CodeBook.md - a code book describing the operations performed on the raw data to generate activity_data.csv and activity_summary.csv
 
 run_analysis.R can be run in R or RStudio.
 
 run_analysis.R requires following packages:
-data.table
-plyr
-dplyr
+* data.table
+* plyr
+* dplyr
 They need to be installed prior to running the script.
 The script will load them in the first step.
 
